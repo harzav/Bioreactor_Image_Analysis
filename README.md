@@ -40,6 +40,7 @@ This part aims in training and testing a U-NET model based on the preprocessed i
 
 ## Acknowledgements
 ![osteonet](image-2.png)
+
 This work is part of the OSTEONET HORIZON-MSCA 2021 Project
 (OSTEONET - HORIZON-MSCA-2021-SE-01GA n. 101086329)
 
