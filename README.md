@@ -4,8 +4,9 @@ This project has a dual aim. The first part consists of a detailed pipeline for 
 
 The notebook is titled 'final_notebook.ipynb'
 
-! We cannot provide exemplary input images at the moment. Please use your own in .tif format (See 'Acknowledgements')
-! Please read the documentation on the scrit carefully in order to understand the data used in each step if you want to adjust them according to your aims
+! We cannot provide exemplary input images at the moment. Please use your own image folder containing images in .tif format (recommended) (See 'Acknowledgements')
+
+! Please read the documentation on the script carefully in order to understand the data used in each step if you want to adjust them according to your aims
 
 ### Table of Contents
 - [Part 1. Preprocess stack of images: Denoise and Smooth edges](#part-1-preprocess-stack-of-images-denoise-and-smooth-edges)
@@ -19,7 +20,8 @@ The aim of this preprocessing procedure was the application of state-of-the-art 
 
 The workflow of the procedure is detailed below in *Figure 1* for the example of "MELS01 left" stack of 400 images.
 
-![image.png](attachment:image.png)
+![workflow](image-3.png)
+
 *Figure 1*
 
 ## Part 2. Apply U-NET model
@@ -31,7 +33,7 @@ This part aims in training and testing a U-NET model based on the preprocessed i
 ![testmetrics](image-1.png)
 *Figure 3*
 
- The model's architecture is designed by Aritz Lizoain Cotanda<sup>1</sup> and implemented for segmentation of dark matter particle signals among background noise. The model's architecture is detailed below in *Figure 4* (image derived for corresponding GitHub<sup>2</sup>):
+ The model's architecture is designed by Aritz Lizoain Cotanda<sup>1</sup> and implemented for segmentation of dark matter particle signals among background noise. The model's architecture is detailed below in *Figure 4* (image derived from the corresponding GitHub<sup>2</sup>):
 
 ![image.png](attachment:image.png)
 *Figure 4*
