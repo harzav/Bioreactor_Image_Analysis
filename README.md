@@ -30,12 +30,12 @@ This part aims in training and testing a U-NET model based on the preprocessed i
 ![Trainmetrics](image.png)
 *Figure 2*
 
-![testmetrics](image-1.png)
+![test_metrics](image-4.png)
 *Figure 3*
 
  The model's architecture is designed by Aritz Lizoain Cotanda<sup>1</sup> and implemented for segmentation of dark matter particle signals among background noise. The model's architecture is detailed below in *Figure 4* (image derived from the corresponding GitHub<sup>2</sup>):
 
-![image.png](attachment:image.png)
+![unet](image-5.png)
 *Figure 4*
 
 ## Acknowledgements
