@@ -114,16 +114,16 @@ The noise originating from the μCT acquisition system is assumed to follow a **
 
 The probability density function is defined as:
 
-> #### Gaussian Noise Distribution
->
-> \[
-> G(h) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left(-\frac{(h - \mu)^2}{2\sigma^2}\right)
-> \]
->
-> where:
-> - \( h \) is the additive noise
-> - \( \mu \) is the mean gray value
-> - \( \sigma \) is the standard deviation of the noise
+#### Gaussian Noise Distribution
+
+$$
+G(h) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left(-\frac{(h - \mu)^2}{2\sigma^2}\right)
+$$
+
+where:
+- **h** is the additive noise
+- **μ** is the mean gray value
+- **σ** is the standard deviation of the noise
 
 The parameter **σ** quantifies noise strength and is used as the **objective metric** to evaluate denoising performance.
 
